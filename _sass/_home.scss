@@ -122,21 +122,21 @@ header {
   position: relative;
   background: #1e2129;
 
+  &:before {
+    position: absolute;
+    content: '';
+    background: url($image_base_url + "/footer-pattern.png");
+    width: 744px;
+    height: 300px;
+    top: 30px;
+    right: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
   .footer-content {
     position: relative;
     padding: 65px 0px 60px 0px;
-
-    &:before {
-      position: absolute;
-      content: '';
-      background: url($image_base_url + "/footer-pattern.png");
-      width: 744px;
-      height: 300px;
-      top: 50px;
-      right: 15%;
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
   }
 
   .footer-widget {

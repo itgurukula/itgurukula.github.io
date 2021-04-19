@@ -28,8 +28,8 @@
       margin-bottom: 0;
     }
   }
-  .footer .footer-content:before {
-    right: 0%;
+  .footer:before {
+    right: 10%;
   }
 }
 
@@ -48,6 +48,10 @@
         font-size: 18px;
       }
     }
+  }
+  .footer:before {
+    right: 0%;
+    top: 40%;
   }
 }
 
