@@ -4,6 +4,7 @@ description: >-
   Providing IT Education based on ancient Gurukul education system.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://itgurukula.org"
+image_base_url: /assets/img
 
 google_analytics: # your google analytics id
 

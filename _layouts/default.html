@@ -7,6 +7,10 @@
     <div id="page-content">
       <header>
         {% include navbar.html %}
+
+        {% if page.page_name == 'home' %}
+          {% include banner.html %}
+        {% endif %}
       </header>
 
       <main>

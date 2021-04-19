@@ -1,0 +1,306 @@
+# navbar
+navbar:
+  upper:
+    left:
+      mail: budhram.gurung01@gmail.com
+      phone: +977 - 1234567890
+      social:
+        - title: Facebook
+          url: /#
+          icon: bx bxl-facebook
+        - title: YouTube
+          url: /#
+          icon: bx bxl-youtube
+        - title: LinkedIn
+          url: /#
+          icon: bx bxl-linkedin
+        - title: Twitter
+          url: /#
+          icon: bx bxl-twitter
+        - title: Instagram
+          url: /#
+          icon: bx bxl-instagram
+    right:
+      links:
+        - title: Staff
+          url: /#
+        - title: Alumni
+          url: /#
+        - title: News & Events
+          url: /#
+      btns:
+        - title: APPLY NOW
+          url: /#
+          class: btn btn-apply ml-4
+
+  lower:
+    - title: Home
+      url: /
+    - title: About
+      url: /about
+    - title: Courses
+      url: /courses
+    - title: Admissions
+      url: /admissions
+    - title: Campus Life
+      url: /campus-life
+
+# banner
+banner:
+  slider:
+    - title: Workshop on Entrepreneurship & Innovation
+      img: https://brgclasses.sirv.com/vidyalaya/img/banner1.jpg
+      url: /#
+    - title: Participation in the Science Hub IT Expo
+      img: https://brgclasses.sirv.com/vidyalaya/img/banner2.jpg
+      url: /#
+    - title: Annual celebration of Students
+      img: https://brgclasses.sirv.com/vidyalaya/img/banner3.jpg
+      url: /#
+
+# quick-links
+quick-links:
+  - title: Programs Offered
+    img: programs.jpg
+    url: /#
+  - title: Research & Innovation
+    img: research.jpg
+    url: /#
+  - title: Entrepreneurship
+    img: entrepreneurship.jpg
+    url: /#
+
+# about
+about:
+  header-text: About College
+  bg-img: https://brgclasses.sirv.com/vidyalaya/img/college.jpg
+  info: |-
+    Foo College of Engineering is one of the top college for pursuing engineering degrees in Foo city.
+    <br><br>
+    Below text is a dummy text which will be replaced with actual text in website development. Lorem,
+    ipsum dolor sit amet consectetur adipisicing elit. Deleniti odio, assumenda molestiae hic veniam
+    exercitationem optio corporis e rror vero aspernatur.
+  features:
+    left:
+      - Quality Education
+      - Excellent Infrastructure
+      - Practical Based Education
+      - Experienced Faculty
+    right:
+      - Inter collegiate events
+      - Ragging free campus
+      - StartUp & Innovation
+      - Placement Assistance
+
+# principal or director message
+message:
+  header-text: Principal's Message
+  profile: principal.jpg
+  msg: |-
+    This section will contain the principal’s or director’s message
+    about the college. And, this paragraph should contain main highlights
+    for the message and enforce to read the below paragraph.
+
+    This can be the second para and other details. Lorem, ipsum dolor
+    sit amet consectetur adipisicing elit.  Deleniti odio, assumenda
+    molestiae hic veniam exercitationem  optio corporis error vero aspernatur.
+    <br>
+    <br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Voluptate optio nihil, sunt quia at sint quaerat
+    perferendis tenetur maiores ducimus?
+
+# admissions
+admissions:
+  header-text: Admissions
+  body:
+    img-left: admissions.jpg
+    tabs:
+      - title: Bachelor
+        content:
+          para: |-
+            If you're interested in pursuing a Bachelor course at Foo college of Engineering.
+            Follow the links below:
+          actions:
+            - title: Requirements
+              url: /#
+            - title: Apply Now
+              url: /#
+            - title: Programs
+              url: /#
+      - title: Masters
+        content:
+          para: |-
+            If you're interested in pursuing a Masters course at Foo college of Engineering.
+            Follow the links below:
+          actions:
+            - title: Requirements
+              url: /#
+            - title: Apply Now
+              url: /#
+            - title: Programs
+              url: /#
+      - title: Doctorate
+        content:
+          para: |-
+            If you're interested in pursuing a Doctorate course at Foo college of Engineering.
+            Follow the links below:
+          actions:
+            - title: Requirements
+              url: /#
+            - title: Apply Now
+              url: /#
+            - title: Programs
+              url: /#
+      - title: International Students
+        content:
+          para: |-
+            To maintain the relationship with outside world, we have given a path to
+            build a relationship by giving international students a special features:
+          actions:
+            - title: Requirements
+              url: /#
+            - title: Apply Now
+              url: /#
+            - title: Programs
+              url: /#
+
+# covid
+covid:
+  wrapper-img: covid.jpg
+  title: Foo College of Engineering responds to COVID 19
+  para: |-
+    Following College true mission to serve the community, the nation and the world,
+    students, faculty, staff and management are addressing the COVID-19 pandemic on
+    multiple fronts. Explore new research, community impact initiatives, expert
+    perspectives and more.
+  more:
+    url: /#
+    caption: READ MORE
+
+# highlights
+highlights:
+  header-text: Highlights
+  bg-img: https://brgclasses.sirv.com/vidyalaya/img/stats.jpg
+  items:
+    - stats: 50+
+      info: Years Education Experience
+    - stats: 100+
+      info: Programs
+    - stats: 150+
+      info: Faculties
+    - stats: 5000+
+      info: Alumni
+
+# news and events
+news-events:
+  news:
+    header-text: NEWS
+    view-more:
+      caption: VIEW MORE
+      url: /#
+    items:
+      - title: Staff meeting hold successfully to tackle new challenges for next semester.
+        img: staff-meeting.jpg
+        date: 22<sup>st</sup> Feb, 2021
+      - title: Intercollege Hackthon successfully hosted in Foo College of Engineering.
+        img: hackathon.jpg
+        date: 1<sup>st</sup> Feb, 2021
+      - title: 100% results to all the MCA students in the second semester.
+        img: alumni-meet.jpg
+        date: 15<sup>th</sup> Jan, 2021
+  events:
+    header-text: EVENTS
+    view-more:
+      caption: VIEW MORE
+      url: /#
+    items:
+      - title: Online Alumni-Interaction Session with faculty and student
+        # keep the date format as it is. avoid removing span
+        date: <span>3<sup>rd</sup></span> Jan, 2021
+      - title: Career Guidance by FOO to Masters Students
+        date: <span>5<sup>th</sup></span> Mar, 2021
+      - title: Fresher’s party by 2nd year BSc(comp sci) to 3rd year
+        date: <span>10<sup>th</sup></span> Mar, 2021
+  highlight:
+    bg-img: https://brgclasses.sirv.com/vidyalaya/img/celebration.jpg
+    header-text: 50<sup>th</sup> ANNIVERSARY [1970 - 2021]
+    title: Foo College of Engineering
+    btn:
+      caption: View Celebration Moments
+      url: /#
+
+# gallery
+gallery:
+  header-text: Gallery
+  view-more:
+    caption: VIEW MORE
+    url: /#
+  images:
+    - title: Covid
+      path: covid.jpg
+    - title: Cycling
+      path: cycling.jpg
+    - title: Entrepreneurship
+      path: entrepreneurship.jpg
+    - title: Event
+      path: event.jpg
+    - title: Getogether
+      path: getogether.jpg
+    - title: Meeting
+      path: meeting.jpg
+    - title: Online
+      path: online.jpg
+    - title: Work together
+      path: work-together.jpg
+
+# partners
+partners:
+  header-text: Our Industry Partners
+  list:
+    - title: Partner 1
+      profile: partner1.png
+    - title: Partner 2
+      profile: partner2.png
+    - title: Partner 3
+      profile: partner3.png
+    - title: Partner 4
+      profile: partner4.png
+    - title: Partner 5
+      profile: partner5.png
+
+# contact
+contact:
+  map-src: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.296795151912!2d73.92823745002752!3d18.515485387350154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c18b7d0e7f79%3A0xa70efdeaaf2a46d1!2sMagarpatta%2C%20Hadapsar%2C%20Pune%2C%20Maharashtra%20411028!5e0!3m2!1sen!2sin!4v1615986115600!5m2!1sen!2sin
+  caption: Get In Touch
+  items:
+    - title: Location
+      icon: map.png
+      content: |-
+        Foo College of Engineering,<br>
+        ABC Road, Bar,<br>
+        Foo - 423401<br>
+        PQR, XYZ
+    - title: Call
+      icon: call.png
+      content: |-
+        001 123456 <br>
+        001 987654
+    - title: Mail
+      icon: mail.png
+      content: |-
+        enquiry@foocollege.edu.in
+  quick-link-caption: Quick Links
+  quick-links:
+    - title: Facilities
+      url: /#
+    - title: Scholarship
+      url: /#
+    - title: Virtual Classroom
+      url: /#
+    - title: College Life
+      url: /#
+    - title: Entrepreneurship Cell
+      url: /#
+    - title: Anti Ragging
+      url: /#

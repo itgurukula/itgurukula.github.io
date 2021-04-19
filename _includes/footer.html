@@ -1,30 +1,85 @@
-<footer class="py-5 bg-light">
+<footer class="footer">
   <div class="container">
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <div class="footer-content">
+      <div class="row">
+        <div class="col-md-4 col-12 footer-column">
+          <div class="logo-widget footer-widget">
+            <div class="footer-title">ABOUT</div>
+            <div class="description">
+              <p>
+                {{ site.description }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-12 offset-md-1 footer-column">
+          <div class="service-widget footer-widget">
+            <div class="footer-title">QUICK LINKS</div>
+            <ul class="list pl-0">
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/projects">Projects</a></li>
+              <li><a href="/donate">Donate</a></li>
+              <li><a href="/contact">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 footer-widget">
+          <div class="contact-widget footer-widget">
+            <div class="footer-title">CONTACTS</div>
+            <div class="text">
+              <a href="https://goo.gl/maps/76FbQzjHeGwNq5aT6" target="_blank">
+                <p>
+                  <i class='bx bxs-map' ></i>
+                  <span>Inside Tribhuvan University, Kirtipur, Kathmandu, Nepal - 44618</span>
+                </p>
+              </a>
+              <a href="tel:+977 442 8090" target="_blank">
+                <p>
+                  <i class='bx bxs-phone' ></i>
+                  <span>+977 442 8090</span>
+                </p>
+              </a>
+              <a href="tel:+977 9841592361">
+                <p>
+                  <i class='bx bx-mobile-alt' ></i>
+                  <span>+977 9841592361</span>
+                </p>
+              </a>
+              <a href="mailto:nicnepal.mahabir@gmail.com" target="_blank">
+                <p>
+                  <i class='bx bx-mail-send' ></i>
+                  <span>nicnepal.mahabir@gmail.com</span>
+                </p>
+              </a>
+            </div>
 
-    <div class="row">
-      <div class="col-md-4">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="col-md-4">
-        {%- include social.html -%}
-      </div>
-
-      <div class="col-md-4">
-        <p>{{- site.description | escape -}}</p>
+            <ul class="footer-social pl-0 mb-0">
+              <li>
+                <a href="https://www.facebook.com/nicnepalofficial" target="_blank"><i class='bx bxl-facebook'></i></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/nic_nepal" target="_blank"><i class='bx bxl-twitter' ></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/nicnepal" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/nicnepalofficial" target="_blank"><i class='bx bxl-github' ></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </footer>
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-12">
+        <div class="copyright text-center">{{ site.title }} © 2021. All Right Reserved.</div>
+      </div>
+    </div>
+  </div>
+</div>

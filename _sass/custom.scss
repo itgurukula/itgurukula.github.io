@@ -6,15 +6,24 @@ body {
   height: 100%;
 }
 body {
-  font-family: "Helvetica", Arial, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
   font-size: 16px;
+}
+.font-primary {
+  font-family: 'Poppins', sans-serif;
+}
+.font-secondary {
+  font-family: 'Open sans', sans-serif;
+}
+.btn {
+  border-radius: 0;
 }
 .page-margin {
   margin-top: 100px;
 }
-// .no-list-style {
-
-// }
+a, a:hover {
+  text-decoration: none;
+}
 #page-content {
   flex: 1 0 auto;
 }

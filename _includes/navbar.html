@@ -1,22 +1,21 @@
-<!-- <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark py-3">
+{% assign navbar = site.data.home.navbar %}
+<!-- navbar -->
+<nav class="navbar lower fixed-top navbar-expand-lg">
   <div class="container">
-    <a class="navbar-brand" href="/">{{ site.title }}</a>
+    <a href="/" class="brand"><img src="{{ site.image_base_url }}/logo.png" alt="IT Gurukula"><span>IT Gurukula</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <i class='bx bx-menu'></i>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav text-center mx-auto">
-        <li class="nav-item {% if page.page_name == 'home' %}active{% endif %}">
-          <a class="nav-link" href="/">Home</a>
-        </li>
-        <li class="nav-item {% if page.page_name == 'about' %}active{% endif %}">
-          <a class="nav-link" href="/about">About</a>
-        </li>
-        <li class="nav-item {% if page.page_name == 'blogs' %}active{% endif %}">
-          <a class="nav-link" href="/blogs">Blogs</a>
-        </li>
+      <ul class="navbar-nav ml-auto">
+        {% for nav-item in navbar.lower %}
+          {% assign title = nav-item.title %}
+          <li class="nav-item {% if forloop.index == 1 %}active{% endif %}">
+            <a class="nav-link" href="{{ site.baseurl }}{{ nav-item.url }}">{{ nav-item.title }}</a>
+          </li>
+        {% endfor %}
       </ul>
     </div>
   </div>
-</nav> -->
+</nav>
