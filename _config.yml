@@ -1,0 +1,11 @@
+title: IT Gurukula
+email: budhramgurung@gmail.com
+description: >-
+  Providing IT Education based on ancient Gurukul education system.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://itgurukula.org"
+
+google_analytics: # your google analytics id
+
+# Build settings
+markdown: kramdown
