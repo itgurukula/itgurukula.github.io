@@ -35,6 +35,9 @@
 
 // standard mobile size
 @media (max-width: 500px) {
+  .br-sm {
+    display: block;
+  }
   header {
     .banner {
       h1 {
@@ -42,7 +45,7 @@
         line-height: 45px;
       }
       .quote h2 {
-        font-size: 22px;
+        font-size: 18px;
       }
     }
   }
