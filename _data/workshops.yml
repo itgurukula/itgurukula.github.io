@@ -22,6 +22,18 @@
   description: |-
     Learn the simple, dynamic and powerful language which can be
     used in Web, Data Science and Machine learning.
+- title: Linux Basics
+  url: /linux-basics
+  thumbnail: workshops/linux-basics.jpg
+  description: |-
+    Learn about the fundamental of Linux Operating System which
+    will help in administration, cloud computing etc
+- title: C Language
+  url: /c-language
+  thumbnail: workshops/c-language.jpg
+  description: |-
+    Learn the C language which will help you understand the
+    programming concepts very well.
 - title: CSS Advanced
   url: /css-advanced
   thumbnail: workshops/css-advanced.jpg
