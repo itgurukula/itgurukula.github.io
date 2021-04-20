@@ -37,13 +37,9 @@ navbar:
     - title: Home
       url: /
     - title: About
-      url: /about
-    - title: Courses
-      url: /courses
-    - title: Admissions
-      url: /admissions
-    - title: Campus Life
-      url: /campus-life
+      url: /#
+    - title: Workshops
+      url: /workshops
 
 # banner
 banner:

@@ -1,0 +1,32 @@
+<section id="workshops" class="workshops section-padding">
+  <div class="container">
+    <div class="section-header text-center mb-5">
+      <h1 class="mb-0">Gurukula Workshops</h1>
+      <p class="mb-0 font-secondary">
+        Enhance your skills with hands-on and expert driven workshops
+      </p>
+    </div>
+    <div class="row justify-content-center align-items-center">
+      {% for workshop in site.data.workshops limit: 4 %}
+        <div class="col-lg-3 col-md-4">
+          <a href="#">
+            <div class="card shadow border-0 mx-auto text-center">
+              <img src="{{ site.image_base_url }}/{{ workshop.thumbnail }}" alt="{{ workshop.title }}" class="card-img-top">
+              <div class="card-body d-flex flex-column justify-content-center items-align-center">
+                <h5 class="card-title">
+                  {{ workshop.title }}
+                </h5>
+                <p class="card-text">
+                  {{ workshop.description }}
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="row justify-content-center">
+      <a href="/workshops/" class="btn btn-danger border-rounded px-4">View All Workshops</a>
+    </div>
+  </div>
+</section>

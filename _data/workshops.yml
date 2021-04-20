@@ -1,0 +1,59 @@
+- title: Git and GitHub
+  url: /git-and-github
+  thumbnail: workshops/git-and-github.jpg
+  description: |-
+    Learn the most important developer skill in managing
+    project source code through hands-on sessions.
+- title: HTML and CSS
+  url: /html-css
+  thumbnail: workshops/html-css.jpg
+  description: |-
+    Learn the essential concepts of structuring the Web
+    page and styling it
+- title: JavaScript Basics
+  url: /js-basics
+  thumbnail: workshops/js-basics.jpg
+  description: |-
+    Learn the basics of most popular language which can be
+    used in Web and Server side.
+- title: Python Basics
+  url: /python-basics
+  thumbnail: workshops/python-basics.jpg
+  description: |-
+    Learn the simple, dynamic and powerful language which can be
+    used in Web, Data Science and Machine learning.
+- title: CSS Advanced
+  url: /css-advanced
+  thumbnail: workshops/css-advanced.jpg
+  description: |-
+    Enhance your CSS skill where you
+    learn about advanced concepts like animation and others.
+- title: Bootstrap Framework
+  url: /bootstrap4
+  thumbnail: workshops/bootstrap4.jpg
+  description: |-
+    Learn the most popular CSS framework for the Web.
+- title: JavaScript Advanced
+  url: /js-advanced
+  thumbnail: workshops/js-advanced.jpg
+  description: |-
+    Enhance your JS skill where you
+    learn about advanced concepts of JavaScript.
+- title: Art of Website Development
+  url: /website-development
+  thumbnail: workshops/website-development.jpg
+  description: |-
+    Learn the Art of building Website practically with using
+    HTML, CSS and JavaScript.
+- title: Ruby Language Basics
+  url: /ruby-basics
+  thumbnail: workshops/ruby-basics.jpg
+  description: |-
+    Learn one of the modern and popular language
+    which powers the projects like GitHub in the backend.
+- title: Go Language Basics
+  url: /go-basics
+  thumbnail: workshops/go-basics.jpg
+  description: |-
+    Learn the robust, cross platform, and performance
+    oriented language.

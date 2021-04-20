@@ -1,6 +1,9 @@
 /* Custom SCSS */
 $color-primary: #ddd;
 
+html {
+  scroll-behavior: smooth;
+}
 html,
 body {
   height: 100%;
@@ -31,6 +34,11 @@ a, a:hover {
   flex-shrink: none;
 }
 
+.section-padding {
+  padding: 5rem 0;
+}
+
 @import "animate.min";
+@import "workshops";
 @import "home";
 @import "responsive";

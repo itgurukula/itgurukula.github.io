@@ -21,6 +21,9 @@
       }
     }
   }
+  .workshops .col-lg-3 .card .card-img-top, .workshops-page .col-lg-3 .card .card-img-top {
+    height: 160px;
+  }
   footer .footer-content .col-12 {
     margin-bottom: 2rem;
 
@@ -48,6 +51,12 @@
         font-size: 18px;
       }
     }
+  }
+  .workshops .container, .workshops-page .container {
+    max-width: 90%;
+  }
+  .workshops .col-lg-3 .card .card-img-top, .workshops-page .col-lg-3 .card .card-img-top {
+    height: 230px;
   }
   .footer:before {
     right: 0%;
