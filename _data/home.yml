@@ -1,42 +1,11 @@
 # navbar
 navbar:
-  upper:
-    left:
-      mail: budhram.gurung01@gmail.com
-      phone: +977 - 1234567890
-      social:
-        - title: Facebook
-          url: /#
-          icon: bx bxl-facebook
-        - title: YouTube
-          url: /#
-          icon: bx bxl-youtube
-        - title: LinkedIn
-          url: /#
-          icon: bx bxl-linkedin
-        - title: Twitter
-          url: /#
-          icon: bx bxl-twitter
-        - title: Instagram
-          url: /#
-          icon: bx bxl-instagram
-    right:
-      links:
-        - title: Staff
-          url: /#
-        - title: Alumni
-          url: /#
-        - title: News & Events
-          url: /#
-      btns:
-        - title: APPLY NOW
-          url: /#
-          class: btn btn-apply ml-4
-
   lower:
     - title: Home
       url: /
     - title: About
+      url: /#
+    - title: Kulas
       url: /#
     - title: Workshops
       url: /workshops

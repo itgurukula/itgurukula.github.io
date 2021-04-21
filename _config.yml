@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://itgurukula.org"
 image_base_url: /assets/img
 
-google_analytics: # your google analytics id
+google_analytics: G-2E4C5RS3T5
 
 # Build settings
 markdown: kramdown
