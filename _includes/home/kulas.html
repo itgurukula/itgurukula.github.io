@@ -1,0 +1,32 @@
+<section id="kulas" class="kulas section-padding">
+  <div class="container">
+    <div class="section-header text-center mb-5">
+      <h1 class="section-title mb-0">Our Kulas</h1>
+      <p class="mb-0 font-secondary">
+        Fostering Collaboration and Self Learning
+      </p>
+    </div>
+    <div class="row justify-content-center align-items-center">
+      {% for kula in site.data.kulas limit: 3 %}
+        <div class="col-lg-3 col-md-3">
+          <a href="#">
+            <div class="card shadow border-0 mx-auto text-center">
+              <img src="{{ site.image_base_url }}/{{ kula.thumbnail }}" alt="{{ kula.title }}" class="card-img-top">
+              <div class="card-body d-flex flex-column justify-content-center items-align-center">
+                <h5 class="card-title">
+                  {{ kula.title }}
+                </h5>
+                <p class="card-text">
+                  {{ kula.description }}
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="row justify-content-center">
+      <a href="/kulas/" class="btn btn-danger border-rounded px-4">View All Kulas</a>
+    </div>
+  </div>
+</section>

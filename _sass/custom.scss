@@ -37,8 +37,12 @@ a, a:hover {
 .section-padding {
   padding: 5rem 0;
 }
+.section-title {
+  color: #333;
+}
 
 @import "animate.min";
 @import "workshops";
+@import "kulas";
 @import "home";
 @import "responsive";

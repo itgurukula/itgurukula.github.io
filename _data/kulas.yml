@@ -1,0 +1,20 @@
+- title: Languages Kula
+  url: /kulas/languages
+  thumbnail: kulas/languages.jpg
+  description: |-
+    Everything about programming languages
+- title: Web Kula
+  url: /kulas/web
+  thumbnail: kulas/web.jpg
+  description: |-
+    Everything about Web Technology
+- title: Cyber Security Kula
+  url: /kulas/cyber-security
+  thumbnail: kulas/cyber-security.jpg
+  description: |-
+    Everything about Cyber Security
+- title: DevOps Kula
+  url: /kulas/devops
+  thumbnail: kulas/devops.jpg
+  description: |-
+    Everything about DevOps Technology
