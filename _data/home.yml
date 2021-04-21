@@ -5,8 +5,8 @@ navbar:
       url: /
     - title: About
       url: /#
-    - title: Kulas
-      url: /#
+    # - title: Kulas
+    #   url: /#
     - title: Workshops
       url: /workshops
 

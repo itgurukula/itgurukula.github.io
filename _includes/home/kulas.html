@@ -8,21 +8,7 @@
     </div>
     <div class="row justify-content-center align-items-center">
       {% for kula in site.data.kulas limit: 3 %}
-        <div class="col-lg-3 col-md-3">
-          <a href="#">
-            <div class="card shadow border-0 mx-auto text-center">
-              <img src="{{ site.image_base_url }}/{{ kula.thumbnail }}" alt="{{ kula.title }}" class="card-img-top">
-              <div class="card-body d-flex flex-column justify-content-center items-align-center">
-                <h5 class="card-title">
-                  {{ kula.title }}
-                </h5>
-                <p class="card-text">
-                  {{ kula.description }}
-                </p>
-              </div>
-            </div>
-          </a>
-        </div>
+        {% include home/workshop-card.html workshop=kula %}
       {% endfor %}
     </div>
     <div class="row justify-content-center">
