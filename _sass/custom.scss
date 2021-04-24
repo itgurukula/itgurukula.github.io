@@ -41,6 +41,27 @@ a, a:hover {
   color: #333;
 }
 
+#coming-soon {
+  background-image: url($image_base_url + "/coming-soon.jpg");
+  position: relative;
+  background-position: center left;
+  height: 100vh;
+  z-index: 1;
+  padding: 0 20px;
+  background-size: cover;
+  color: #fff;
+
+  h1 {
+    font-size: 5rem;
+  }
+  h4 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+
 @import "animate.min";
 @import "workshops";
 @import "kulas";
