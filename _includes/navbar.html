@@ -1,4 +1,3 @@
-{% assign navbar = site.data.home.navbar %}
 <!-- navbar -->
 <nav class="navbar lower fixed-top shadow-sm navbar-expand-lg">
   <div class="container">
@@ -9,7 +8,7 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
-        {% for nav-item in navbar.lower %}
+        {% for nav-item in site.data.navbar %}
           {% assign title = nav-item.title %}
           <li class="nav-item {% if forloop.index == 1 %}active{% endif %}">
             <a class="nav-link" href="{{ site.baseurl }}{{ nav-item.url }}">{{ nav-item.title }}</a>

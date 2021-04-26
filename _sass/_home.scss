@@ -2,25 +2,6 @@
 header {
   position: relative;
 
-  .upper {
-    background-color: #f18720;
-    position: relative;
-    font-size: 13px;
-    font-weight: 300;
-    color: #fff;
-    z-index: 10;
-
-    .right-actions {
-      div a i {
-        vertical-align: middle;
-      }
-      div a {
-        color: #fff;
-        font-size: 15px;
-      }
-    }
-  }
-
   .navbar.lower {
     background-color: #fff;
     padding-top: 0;
@@ -121,7 +102,7 @@ header {
     content: '';
     background: url($image_base_url + "/footer-pattern.png");
     width: 744px;
-    height: 300px;
+    height: 200px;
     top: 30px;
     right: 30%;
     background-size: cover;
