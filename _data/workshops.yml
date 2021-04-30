@@ -1,70 +1,82 @@
 - title: Git and GitHub
-  url: /git-and-github
+  # url: /git-and-github
+  url: /#
   thumbnail: workshops/git-and-github.jpg
   description: |-
     Learn the most important developer skill in managing
     project source code through hands-on sessions.
 - title: HTML and CSS
-  url: /html-css
+  # url: /html-css
+  url: /#
   thumbnail: workshops/html-css.jpg
   description: |-
     Learn the essential concepts of structuring the Web
     page and styling it
 - title: JavaScript Basics
-  url: /js-basics
+  # url: /js-basics
+  url: /#
   thumbnail: workshops/js-basics.jpg
   description: |-
     Learn the basics of most popular language which can be
     used in Web and Server side.
 - title: Python Basics
-  url: /python-basics
+  # url: /python-basics
+  url: /#
   thumbnail: workshops/python-basics.jpg
   description: |-
     Learn the simple, dynamic and powerful language which can be
     used in Web, Data Science and Machine learning.
 - title: Linux Basics
-  url: /linux-basics
+  # url: /linux-basics
+  url: /#
   thumbnail: workshops/linux-basics.jpg
   description: |-
     Learn about the fundamental of Linux Operating System which
     will help in administration, cloud computing etc
 - title: C Language
-  url: /c-language
+  # url: /c-language
+  url: /#
   thumbnail: workshops/c-language.jpg
   description: |-
     Learn the C language which will help you understand the
     programming concepts very well.
 - title: CSS Advanced
-  url: /css-advanced
+  # url: /css-advanced
+  url: /#
   thumbnail: workshops/css-advanced.jpg
   description: |-
     Enhance your CSS skill where you
     learn about advanced concepts like animation and others.
 - title: Bootstrap Framework
-  url: /bootstrap4
+  # url: /bootstrap4
+  url: /#
   thumbnail: workshops/bootstrap4.jpg
   description: |-
     Learn the most popular CSS framework for the Web.
 - title: JavaScript Advanced
-  url: /js-advanced
+  # url: /js-advanced
+  url: /#
   thumbnail: workshops/js-advanced.jpg
   description: |-
     Enhance your JS skill where you
     learn about advanced concepts of JavaScript.
 - title: Art of Website Development
-  url: /website-development
+  # url: /website-development
+  url: /#
   thumbnail: workshops/website-development.jpg
   description: |-
     Learn the Art of building Website practically with using
     HTML, CSS and JavaScript.
 - title: Ruby Language Basics
-  url: /ruby-basics
+  # url: /ruby-basics
+  url: /#
   thumbnail: workshops/ruby-basics.jpg
   description: |-
     Learn one of the modern and popular language
     which powers the projects like GitHub in the backend.
 - title: Go Language Basics
-  url: /go-basics
+  # url: /go-basics
+  url: /#
   thumbnail: workshops/go-basics.jpg
   description: |-
     Learn the robust, cross platform, and performance
