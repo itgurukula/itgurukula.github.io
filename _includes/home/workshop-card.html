@@ -10,6 +10,9 @@
           {{ include.workshop.description }}
         </p>
       </div>
+      {% if include.workshop.status != 'complete' %}
+        <div class="card-footer">Upcoming</div>
+      {% endif %}
     </div>
   </a>
 </div>

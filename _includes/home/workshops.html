@@ -10,7 +10,7 @@
       </h6>
     </div>
     <div class="row justify-content-center align-items-center">
-      {% for workshop in site.data.workshops limit: 8 %}
+      {% for workshop in site.data.workshops limit: 4 %}
         {% include home/workshop-card.html workshop=workshop %}
       {% endfor %}
     </div>

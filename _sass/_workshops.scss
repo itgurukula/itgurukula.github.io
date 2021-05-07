@@ -45,6 +45,12 @@
           font-weight: 300;
         }
       }
+      .card-footer {
+        padding: 0.25rem;
+        background-color: #444;
+        color: #fff;
+        font-size: 13px;
+      }
     }
   }
   .col-lg-4:nth-child(n+4) {
